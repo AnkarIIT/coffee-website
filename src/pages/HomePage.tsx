@@ -44,27 +44,28 @@ export const HomePage: React.FC = () => {
     },
   ];
 
-  {
-    name: 'Sarah Johnson',
+  const testimonials = [
+    {
+      name: 'Sarah Johnson',
       role: 'Coffee Enthusiast',
-        rating: 5,
-          comment: 'Best coffee booking experience I\'ve ever had. Seamless and quick!',
-            image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80'
-  },
-  {
-    name: 'Mike Chen',
+      rating: 5,
+      comment: 'Best coffee booking experience I\'ve ever had. Seamless and quick!',
+      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80'
+    },
+    {
+      name: 'Mike Chen',
       role: 'Busy Professional',
-        rating: 5,
-          comment: 'No more waiting in queues. I pre-order and it\'s ready when I arrive.',
-            image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80'
-  },
-  {
-    name: 'Emma Davis',
+      rating: 5,
+      comment: 'No more waiting in queues. I pre-order and it\'s ready when I arrive.',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80'
+    },
+    {
+      name: 'Emma Davis',
       role: 'Student',
-        rating: 5,
-          comment: 'Great way to reserve study spots and enjoy amazing coffee.',
-            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80'
-  },
+      rating: 5,
+      comment: 'Great way to reserve study spots and enjoy amazing coffee.',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80'
+    },
   ];
 
 return (
